@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../conversao.js"defer></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>Placas fotovoltaicas</title>
+</head>
+<body>
+    <header>
+        <nav>
+           <a href="../index.html">Principal</a>
+           <a href="../html/placas.html">Placas Fotovoltaicas</a>
+           <a href="../html/placas_intelbras.html">Intelbras e suas placas</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- conceito -->
+            <h1>Do que as placas são compostas?</h1>
+        <p>São compostas por células fotovoltaicas, os dispositivos responsáveis por converter a radiação em energia elétrica. Isso ocorre por conta do efeito fotovoltaico, onde fótons são absorvidos pelas células fotovoltaicas e liberam elétrons que fluem nas placas fotovoltaicas.</p>
+            <h1>Quais são seus componentes?</h1>
+            <h2>Estrutura de fixação</h2> 
+            <p>Responsável por manter as placas fixas em um lugar, independentemente do clima. Dependendo de sua instalação, pode ajudar em diferentes demandas.</p>
+            <h2>Inversor</h2>
+            <p>Tecnologia responsável por transformar a energia corrente contínua para corrente alternada, tornando a energia utilizável.</p>
+            <h2>Conector</h2>  
+            <p>Responsável por juntar os componentes das placas de forma segura, para que não haja erros.</p>
+            <h2>String box</h2>  
+            <p>Responsável por proteger as conexões das placas fotovoltaicas e gerar lugar para se conectar com o inversor.</p>
+            <h2>Controlador de carga</h2>  
+            <p>Responsável por proteger as baterias, visando uma maior durabilidade. Além disso, ele otimiza o armazenamento de energia elétrica não utilizada.</p>
+            <h2>Medidor</h2>  
+            <p>Responsável por monitorar quanta eletricidade foi utilizada na residência e a quantidade enviada para a rede elétrica.</p><br>
+            <div class="placa">
+                <img src="../img/placa.png" alt="Robô industrial"> <br>
+                <small>Adaptado de: <a href="https://www.portalsolar.com.br/como-funciona-placa-solar">Portal Solar</a> </small>
+            </div>
+            <label for="potencia">Insira a potência</label><br>
+            <input type="number" id="potencia"> <br>
+
+            <label for="irrarea">Insira a irradiação por área</label><br>
+            <input type="number" id="irrarea"><br>
+
+            <label for="funcionamentodia">Insira quantos dias funciona por mês</label><br>
+            <input type="number" id="funcionamentodia"><br>
+
+            <label for="eficienciasis">Insira a eficiência do sistema</label><br>
+            <input type="number" id="eficienciasis"><br>
+
+            <button onclick="principal()">Calcular</button><br><br>
+            <div id="resposta"></div>
+    </main>
+
+    <footer>
+        By Ana luiza &copy &trade;
+    </footer>
+</body>
+</html>

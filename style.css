@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Carrois+Gothic&family=Dosis:wght@200..800&family=Funnel+Display:wght@300&family=Kite+One&family=Liter&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #4080b4;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+nav a{
+    margin-right: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #00000094;
+}
+
+p{
+    width: 350px;
+    text-align: justify;
+    margin: auto;
+    padding-right: 15px;
+}
+
+.placa img{
+    width: 290px;
+    height: 230px;
+    border: 6px #bee2ff solid;
+    border-radius: 24px;
+}
+
+.intelbras img{
+    width: 290px;
+    height: 380px;
+    border: 6px #bee2ff solid;
+    border-radius: 24px;
+}
+
+.video_placa iframe{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+}
+
+.mapa_placa iframe{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+}
