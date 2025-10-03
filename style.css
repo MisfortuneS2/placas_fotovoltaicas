@@ -39,14 +39,15 @@ p{
 .placa img{
     width: 290px;
     height: 230px;
-    border: 6px #bee2ff solid;
+    border: 6px #f5fbff solid;
     border-radius: 24px;
 }
 
 .intelbras img{
     width: 290px;
     height: 380px;
-    border: 6px #bee2ff solid;
+    border: 6px #f5fbff solid;
+    background-color: #f5fbff;
     border-radius: 24px;
 }
 
