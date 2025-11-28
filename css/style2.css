@@ -36,3 +36,24 @@ p{
     margin: auto;
     padding-right: 15px;
 }
+
+.arduino img{
+    width: 290px;
+    height: 290px;
+    border: 6px #f5fbff solid;
+    border-radius: 24px;
+}
+
+.microcontrolador img{
+    width: 290px;
+    height: 290px;
+    border: 6px #f5fbff solid;
+    border-radius: 24px;
+}
+
+.multimetro img{
+    width: 290px;
+    height: 290px;
+    border: 6px #f5fbff solid;
+    border-radius: 24px;
+}
