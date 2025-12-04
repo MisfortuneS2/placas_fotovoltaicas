@@ -64,8 +64,66 @@ p{
     border-radius: 24px;
 }
 
+
+.ohm img{
+    width: 360px;
+    height: 160px;
+    border-radius: 24px;
+}
+
+.resistencia img{
+    width: 360px;
+    height: 360px;
+    border-radius: 24px;
+}
+
+.ligacao_fis_7 img{
+    width: 360px;
+    height: 250px;
+    border-radius: 24px;
+}
+
+.teste_7_segmentos img{
+    width: 360px;
+    height: 320px;
+    border-radius: 24px;
+}
+
+.medida_tensao_700 img{
+    width: 360px;
+    height: 320px;
+    border-radius: 24px;
+}
+
+.serial img{
+    width: 360px;
+    height: 360px;
+    border-radius: 24px;
+}
+
+.grafico img{
+    width: 360px;
+    height: 250px;
+}
+
 .led img{
     width: 360px;
     height: 340px;
+    border-radius: 24px;
+}
+
+.ligacao_led img{
+    width: 320px;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.valor_300 img{
+    width: 360px;
+    height: 360px;
+    border-radius: 24px;
+}
+
+iframe{
     border-radius: 24px;
 }
